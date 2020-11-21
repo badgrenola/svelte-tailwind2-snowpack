@@ -5,8 +5,9 @@ module.exports = {
     src: '/_dist_',
   },
   plugins: [
+    ["@snowpack/plugin-build-script", {"cmd": "postcss", "input": [".css"], "output": [".css"]}],
     '@snowpack/plugin-svelte',
-    '@snowpack/plugin-dotenv',
+    '@snowpack/plugin-dotenv'
   ],
   install: [
     /* ... */
