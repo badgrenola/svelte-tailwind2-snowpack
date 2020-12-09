@@ -1,3 +1,10 @@
 @tailwind base;
 @tailwind components;
+
+/* Add custom CSS here - not currently watched by Snowpack so will require a restart of the app */
+html, body {
+  width: 100%;
+  height: 100%;
+}
+
 @tailwind utilities;
