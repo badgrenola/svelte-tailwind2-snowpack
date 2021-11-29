@@ -6,6 +6,15 @@ html, body {
   width: 100%;
   height: 100%;
   overflow: hidden;
+  -webkit-print-color-adjust: exact;
+}
+
+body {
+  overflow-y: auto;
+}
+
+* {
+  text-rendering: geometricprecision !important;
 }
 
 @tailwind utilities;
