@@ -1,15 +1,13 @@
 <script>
   import "./index.css"
-  import Counter from './Components/Counter.svelte'
-  import Controls from './Components/Controls.svelte'
+  import Header from './Components/Header.svelte'
+  import Experience from './Components/Experience.svelte'
 </script>
 
-<style>
-</style>
-
-<main class="w-full h-full flex">
-  <div class="w-full h-full flex flex-col sm:flex-row">
-    <Counter />
-    <Controls />
+<main class="w-full flex flex-col font-inter p-8 h-full overflow-y-auto leading-6 text-sm">
+  <div class="container mx-auto lg:max-w-4xl">
+    <Header />
+    <hr class="mt-8 sm:mt-12"/>
+    <Experience />
   </div>
 </main>

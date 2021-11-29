@@ -5,15 +5,16 @@
     "serve": "http-server ./build"
   },
   "dependencies": {
-    "tailwindcss": "^2.0.1"
+    "@tailwindcss/aspect-ratio": "^0.3.0",
+    "tailwindcss": "^2.2.19"
   },
   "devDependencies": {
-    "@snowpack/plugin-dotenv": "^2.0.4",
-    "@snowpack/plugin-svelte": "^3.3.0",
-    "autoprefixer": "^10.0.2",
-    "postcss": "^8.1.9",
-    "postcss-cli": "^8.3.0",
-    "snowpack": "^2.17.1",
-    "svelte": "^3.29.7"
+    "@snowpack/plugin-dotenv": "^2.2.0",
+    "@snowpack/plugin-svelte": "^3.7.0",
+    "autoprefixer": "^10.4.0",
+    "postcss": "^8.4.4",
+    "postcss-cli": "^8.3.1",
+    "snowpack": "^2.18.5",
+    "svelte": "^3.44.2"
   }
 }
