@@ -4,7 +4,7 @@
   import Experience from './Components/Experience.svelte'
 </script>
 
-<main class="w-full flex flex-col font-inter p-8 h-full overflow-y-auto leading-6 text-sm">
+<main class="w-full font-inter p-8 leading-6 text-sm">
   <div class="container mx-auto lg:max-w-4xl">
     <Header />
     <hr class="mt-8 sm:mt-12"/>

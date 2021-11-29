@@ -9,6 +9,9 @@ module.exports = {
   },
   theme: {
     extend: {
+      colors: {
+        cv: "#e53273",
+      },
       fontFamily: {
         inter: ["Inter", "sans-serif"]
       }
