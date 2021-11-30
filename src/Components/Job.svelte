@@ -19,7 +19,7 @@
   </div>
 
   <div class="mt-2 sm:mt-4 flex flex-col space-y-4 text-justify">
-    <p>{detailsText}</p>
+    <p>{@html detailsText}</p>
     <ul class="flex text-xs text-white font-semibold tracking-wider flex-wrap">
       {#each skills.sort() as skill}
         <li class="p-1 sm:px-2 sm:py-1 bg-cv rounded-sm opacity-80 mr-2 mb-2">{skill}</li>
