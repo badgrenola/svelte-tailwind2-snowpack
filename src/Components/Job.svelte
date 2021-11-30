@@ -9,7 +9,7 @@
 
 <div>
 
-  <div class="flex justify-between sm:items-center flex-col sm:flex-row sm:px-2 sm:py-1 sm:rounded-sm sm:-mx-2 tracking-wide sm:bg-gradient-to-r sm:from-gray-100 sm:to-gray-50">
+  <div class="flex justify-between sm:items-center flex-col sm:flex-row sm:px-2 sm:py-1 sm:rounded-sm sm:-mx-2 tracking-wide sm:bg-gradient-to-r sm:from-gray-100 sm:to-white">
     <h4 class="font-medium text-cv text-lg">{title}</h4>
     {#if company}
       <span class="hidden sm:flex mx-2 text-gray-300 text-lg">/</span>
@@ -21,7 +21,7 @@
   <div class="mt-2 sm:mt-4 flex flex-col space-y-4 text-justify">
     <p>{detailsText}</p>
     <ul class="flex text-xs text-white font-semibold tracking-wider flex-wrap">
-      {#each skills as skill}
+      {#each skills.sort() as skill}
         <li class="p-1 sm:px-2 sm:py-1 bg-cv rounded-sm opacity-80 mr-2 mb-2">{skill}</li>
       {/each}
     </ul>
