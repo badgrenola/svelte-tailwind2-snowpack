@@ -1,6 +1,6 @@
 <script>
   import Job from './Job.svelte'
-  import { jobs } from '/jobs'
+  export let jobs = []
 </script>
 <section>
   <h3 class="mt-8 text-3xl text-cv tracking-wide">Experience</h3>
