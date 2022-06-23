@@ -17,7 +17,7 @@
 
   <!-- Contact -->
   <div class="flex flex-col items-center space-y-2 sm:flex-row sm:space-y-0 print:items-start print:flex-row print:space-y-0 print:space-x-8 sm:space-x-8">
-    <div class="flex space-x-4">
+    <div class="flex space-x-4 tracking-wide">
       <div class="flex flex-col font-bold space-y-2 text-cv">
         <span>Location</span>
         <span>Web</span>
