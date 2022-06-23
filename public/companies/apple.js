@@ -7,12 +7,12 @@ const details = {
   ],
   jobs: [
     {
-      title: "Developer",
+      title: "Full Stack / Python Developer",
       company: "Natural History Museum",
       startDate: "Aug 2020",
       endDate: "Present",
-      skills: ["Prototyping", "Web-App", "SvelteJS", "TailwindCSS", "Python", "SfM", "3D"],
-      detailsText: "Created a <i>Svelte</i> web-app and <i>Falcon</i> back-end that uses <i>OpenSfM</i>, a python-based open-source structure-from-motion library, to automatically convert imagery uploaded by museum employees into 3D scenes they can navigate in their browser. Whilst the primary goal of the project was to support imagery from archaeological sites, I also worked closely with members of the NHM's <i>Planetary Surfaces Group</i> to ensure that the app would support imagery captured with the <i>Pancam</i> instrument on-board the <i>ExoMars</i> rover which is launching in 2022, giving them an accessible way of analysing the rover's surroundings in 3D."
+      skills: ["Prototyping", "Web-App", "SvelteJS", "TailwindCSS", "Python", "SfM", "3D", "Photogrammetry"],
+      detailsText: "Created a <i>Svelte</i> web-app and <i>Falcon</i> back-end that uses <i>OpenSfM</i>, a python-based open-source structure-from-motion photogrammetry library, to automatically convert imagery uploaded by museum employees into 3D scenes they can navigate in their browser. Whilst the primary goal of the project was to support imagery from archaeological sites, I also worked closely with members of the NHM's <i>Planetary Surfaces Group</i> to ensure that the app would support imagery captured with the <i>Pancam</i> instrument on-board the <i>ExoMars</i> rover, giving them an accessible way of analysing the rover's surroundings in 3D."
     },
     {
       title: "Pipeline TD",
@@ -20,7 +20,7 @@ const details = {
       startDate: "Jan 2020",
       endDate: "Present",
       skills: ["Prototyping", "VFX", "Pipeline", "Ftrack", "Web-App", "SvelteJS", "TailwindCSS", "Python"],
-      detailsText: "Created <i>Trawler</i>, a minimalist asset library tool for small/mid-sized studios, as part of a project funded by <i>Clwstwr</i>, an R&D program based in South Wales. <i>Trawler</i> consisted of a <i>Svelte</i> web-app and <i>Falcon</i> back-end, running perpetually on the studio's render farm. It automatically tracked assets throughout the studio without enforcing particular file-structures or artist workflows - a 'hands-off' approach that proved extremely useful, as <i>Trawler</i> was available and up-to-date whenever an artist needed it. Additionally consulted on all aspects of a pipeline overhaul, currently scheduled for early-2022.",
+      detailsText: "Created <i>Trawler</i>, a minimalist asset library tool for small/mid-sized studios, as part of a project funded by <i>Clwstwr</i>, an R&D program based in South Wales. <i>Trawler</i> consisted of a <i>Svelte</i> web-app and <i>Falcon</i> back-end, running perpetually on the studio's render farm. It automatically tracked assets throughout the studio without enforcing particular file-structures or artist workflows - a 'hands-off' approach that proved extremely useful, as <i>Trawler</i> was available and up-to-date whenever an artist needed it. Currently consulting on, and writing the core-architecture for, all aspects of an upcoming complete pipeline overhaul.",
     },
     {
       title: "Senior iOS Developer",
@@ -28,19 +28,19 @@ const details = {
       startDate: "Feb 2019",
       endDate: "Present",
       skills: ["iOS", "iPad", "Swift", "Design", "Prototyping", "UX", "UI", "3D"],
-      detailsText: "Was the sole developer on the first version of the <i>Mix</i> iPad app, a tool targeted towards apparel & product designers at large brands, that allows them to quickly iterate during the materialisation of products. The app uses the real-world materials and 3D models in a user's <i>Swatchbook</i> account, and uses a rules-based approach to automatically suggest variants of a design, all of which can be viewed in 3D or AR, and which can subsequently be rated, edited, and saved for further review/production. Currently the lead iOS developer in a team of 4 working on the next release of the product.",
-      pageBreak: false
+      detailsText: "Was the sole developer on the first version of the <i>Mix</i> iPad app, a tool targeted towards apparel & product designers at large brands, that allows them to quickly iterate during the materialisation of products. The app uses the real-world materials and 3D models in a user's <i>Swatchbook</i> account, and uses a rules-based approach to automatically suggest variants of a design, all of which can be viewed in 3D or AR, and which can subsequently be rated, edited, and saved for further review/production.",
     },
     {
-      title: "Developer",
-      company: "Filigree",
-      startDate: "Mar 2018",
-      endDate: "Jun 2018",
-      skills: ["Prototyping", "Web-App", "React", "Node", "Electron", "Python"],
-      detailsText: "Prototyped the initial build of the <i>Filigree</i> application (then known as <i>Wire</i>) which used a combination of <i>React</i>, <i>Express</i>, <i>GraphQL</i> and <i>Electron</i> to create a desktop app that communicated with the core application code via a <i>Python</i> wrapper. Optimisation of the dataflow throughout the pipeline was the key challenge throughout this work."
+      title: "Full Stack / Python / Shader Developer",
+      company: "Infinite Realities",
+      startDate: "Sept 2018",
+      endDate: "Present",
+      skills: ["Prototyping", "VFX", "Pipeline", "Ftrack", "Web-App", "SvelteJS", "TailwindCSS", "Python", "Shader Writing"],
+      detailsText: "Created numerous custom shaders, scripts and applications that allowed the team to quickly view, adjust and render large amounts of highly detailed 4D-captured photogrammetry data. The majority of this work centers around an existing tool called Marmoset Toolbag, into which I have added render-farm and batch render capabilities (controllable using a <i>Svelte</i> web-app), and shaders that allow the team to minimise the required data-load where possible by dynamically generating channels.",
+      pageBreak: true
     },
     {
-      title: "Lead Developer",
+      title: "Full Stack / Python Lead Developer",
       company: "Territory Studio",
       startDate: "Nov 2017",
       endDate: "Sept 2018",
@@ -77,8 +77,8 @@ const details = {
       startDate: "Oct 2010",
       endDate: "May 2012",
       skills: ["Presenting", "Demoing", "Prototyping", "VFX", "Python"],
-      detailsText: "Presented <i>The Foundry</i>’s software and VFX techniques across the world, to groups ranging from 5-500 people covering various levels of expertise. Continued to develop tools specifically to solve the creative problems I encountered."
-    }
+      detailsText: "Presented <i>The Foundry</i>’s software and VFX techniques across the world, to groups ranging from 5-500 people covering various levels of expertise. My scripting and 3D modelling background allowed me to continue developing tools specifically to solve the creative problems I encountered."
+    },
   ]
 }
 

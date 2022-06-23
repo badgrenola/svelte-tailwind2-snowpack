@@ -31,7 +31,7 @@
     <span class="mt-0 text-gray-600 flex-1 text-right">{startDate} - {endDate}</span>
   </div>
 
-  <div class="mt-2 sm:mt-4 flex flex-col space-y-4 text-justify">
+  <div class="mt-2 sm:mt-4 flex flex-col space-y-4 text-justify print:mt-2">
     <p>{@html detailsText}</p>
     {#if !hideSkills}
       <ul class="flex text-xs text-white font-semibold tracking-wider flex-wrap">

@@ -10,7 +10,7 @@
     <img
       src="/profile.jpg"
       alt="Matt Brealey's head"
-      class="w-24 h-24 rounded-full bg-gray-700 print:w-20 print:h-20"
+      class="w-24 h-24 rounded-full bg-gray-700 print:w-16 print:h-16"
     />
     <h1 class="flex print:hidden text-5xl text-cv font-semibold tracking-tight text-center sm:text-left">Matt Brealey</h1>
   </div>
