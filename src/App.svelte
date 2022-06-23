@@ -10,7 +10,7 @@
 <main class="w-full font-inter p-8 text-sm print:text-xs leading-6 print:leading-5">
   <div class="container mx-auto lg:max-w-4xl print:mx-0 print:max-w-none">
     <Header headerParas={details.headerParas} />
-    <hr class="mt-8 sm:mt-12"/>
+    <hr class="mt-8 sm:mt-12 print:mt-10"/>
     <Experience jobs={details.jobs} hideSkills={details.hideSkills}/>
   </div>
 </main>
