@@ -2,14 +2,14 @@
   export let headerParas
 </script>
 
-<section class="flex flex-col space-y-8">
-  <div class="flex flex-col space-y-8 items-center sm:items-start">
+<section class="flex flex-col space-y-8 print:space-y-6">
+  <div class="flex flex-col space-y-8 items-center sm:items-start print:items-start">
     <img
       src="/profile.jpg"
       alt="Matt Brealey's head"
       class="w-24 h-24 rounded-full bg-gray-700"
     />
-    <h1 class="text-5xl text-cv font-semibold tracking-tight text-center sm:text-left">Matt Brealey</h1>
+    <h1 class="text-5xl text-cv font-semibold tracking-tight text-center sm:text-left print:text-left">Matt Brealey</h1>
   </div>
   <div class="flex flex-col space-y-2">
     {#each headerParas as para}

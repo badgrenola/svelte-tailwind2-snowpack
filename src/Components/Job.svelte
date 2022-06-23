@@ -11,13 +11,24 @@
 
 <div style={pageBreak ? "page-break-after: always; page-break-inside: avoid;" : ""}>
 
-  <div class="flex justify-between sm:items-center flex-col sm:flex-row sm:px-2 sm:py-1 sm:rounded-sm sm:-mx-2 tracking-wide sm:bg-gradient-to-r sm:from-gray-100 sm:to-white">
+  <!-- Stack -->
+  <div class="flex justify-between flex-col tracking-wide sm:hidden print:hidden">
     <h4 class="font-medium text-cv text-lg">{title}</h4>
     {#if company}
-      <span class="hidden sm:flex mx-2 text-gray-300 text-lg">/</span>
-      <h5 class="text-gray-800 font-medium sm:text-lg sm:text-gray-500 sm:font-normal">{company}</h5>
+      <span class="hidden mx-2 text-gray-300 text-lg">/</span>
+      <h5 class="text-gray-800 font-medium ">{company}</h5>
     {/if}
-    <span class="sm:mt-0 text-gray-600 flex-1 sm:text-right">{startDate} - {endDate}</span>
+    <span class="text-gray-600 flex-1">{startDate} - {endDate}</span>
+  </div>
+
+  <!-- Bar -->
+  <div class="hidden justify-between items-center flex-row px-2 py-1 rounded-sm -mx-2 tracking-wide bg-gradient-to-r from-gray-100 to-white sm:flex print:flex">
+    <h4 class="font-medium text-cv text-lg print:text-sm">{title}</h4>
+    {#if company}
+      <span class="flex mx-2 text-gray-300 text-lg print:text-sm">/</span>
+      <h5 class="text-lg print:text-sm text-gray-500 font-normal">{company}</h5>
+    {/if}
+    <span class="mt-0 text-gray-600 flex-1 text-right">{startDate} - {endDate}</span>
   </div>
 
   <div class="mt-2 sm:mt-4 flex flex-col space-y-4 text-justify">

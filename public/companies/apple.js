@@ -21,7 +21,6 @@ const details = {
       endDate: "Present",
       skills: ["Prototyping", "VFX", "Pipeline", "Ftrack", "Web-App", "SvelteJS", "TailwindCSS", "Python"],
       detailsText: "Created <i>Trawler</i>, a minimalist asset library tool for small/mid-sized studios, as part of a project funded by <i>Clwstwr</i>, an R&D program based in South Wales. <i>Trawler</i> consisted of a <i>Svelte</i> web-app and <i>Falcon</i> back-end, running perpetually on the studio's render farm. It automatically tracked assets throughout the studio without enforcing particular file-structures or artist workflows - a 'hands-off' approach that proved extremely useful, as <i>Trawler</i> was available and up-to-date whenever an artist needed it. Additionally consulted on all aspects of a pipeline overhaul, currently scheduled for early-2022.",
-      pageBreak: true
     },
     {
       title: "Senior iOS Developer",
@@ -29,7 +28,8 @@ const details = {
       startDate: "Feb 2019",
       endDate: "Present",
       skills: ["iOS", "iPad", "Swift", "Design", "Prototyping", "UX", "UI", "3D"],
-      detailsText: "Was the sole developer on the first version of the <i>Mix</i> iPad app, a tool targeted towards apparel & product designers at large brands, that allows them to quickly iterate during the materialisation of products. The app uses the real-world materials and 3D models in a user's <i>Swatchbook</i> account, and uses a rules-based approach to automatically suggest variants of a design, all of which can be viewed in 3D or AR, and which can subsequently be rated, edited, and saved for further review/production. Currently the lead iOS developer in a team of 4 working on the next release of the product."
+      detailsText: "Was the sole developer on the first version of the <i>Mix</i> iPad app, a tool targeted towards apparel & product designers at large brands, that allows them to quickly iterate during the materialisation of products. The app uses the real-world materials and 3D models in a user's <i>Swatchbook</i> account, and uses a rules-based approach to automatically suggest variants of a design, all of which can be viewed in 3D or AR, and which can subsequently be rated, edited, and saved for further review/production. Currently the lead iOS developer in a team of 4 working on the next release of the product.",
+      pageBreak: false
     },
     {
       title: "Developer",
