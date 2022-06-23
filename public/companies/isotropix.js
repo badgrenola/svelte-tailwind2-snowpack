@@ -1,4 +1,4 @@
-const isotropix = {
+const details = {
   headerParas: [
     "I've been extremely lucky to work as both a developer and consultant for some <i>fantastic</i> companies over the last 12 years, creating iPad apps, web apps, award-winning VFX pipeline tools, and game-changing design applications, all of which push the boundaries of what an end user can achieve.",
     "I love making data flow between applications in occasionally odd but incredibly useful ways. As such, the majority of my freelance work today involves either prototyping new and unique workflows between existing technologies, or increasing the accessibility of disparate and often esoteric datasets, by creating new applications along with the pipelines necessary to support them.",
@@ -81,4 +81,4 @@ const isotropix = {
   ]
 }
 
-export { isotropix }
+export { details }
